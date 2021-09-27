@@ -3,7 +3,7 @@ import cv2
 
 
 g_scale = '@%#*+=-:. '[::-1]
-# g_scale = '@@@@####****...  '[::-1]
+# g_scale = '##--...  '[::-1]
 
 
 
@@ -67,7 +67,7 @@ def ascii_art2(filename , base_width):
 		print(a_art)
 
 
-# ascii_art2('dlhsb.mp4' , 100)
+ascii_art2('dlhsb.mp4' , 100)
 # ascii_art2('dlhsb.mp4' , 80)
-ascii_art2('kvo.mp4' , 80)
+# ascii_art2('kvo.mp4' , 80)
 
